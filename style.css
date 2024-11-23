@@ -1,0 +1,141 @@
+body{
+    font-family: sans-serif;
+    background-color:rgb(91, 153, 194) ;
+}
+header{
+    text-align: center;
+    position: sticky;
+}
+h3{
+    color: rgb(255, 254, 203);
+}
+h2{
+    color: rgb(245, 244, 179);
+}
+#theme-selector{
+    box-sizing: border-box;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    width:45px;
+    height:20px;
+    background-color:lightcyan;
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px  rgb(33,33,33);
+    /* border:1px solid grey; */
+}
+#slider{
+    background-color:cornsilk;
+    border-radius: 50%;
+    padding:2px;
+    height: 12px;
+    width:12px;
+    box-shadow: 1px 1px 1px darkslategray;
+    border: 0.2px solid darkslategray;
+}
+main{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+main aside{
+    width: 25%;
+    height: 200%;
+}
+main section{
+    width: 40%;
+    height: 100%;
+}
+main div{
+    /* background-color: aqua; */
+    border: 5px black;
+    border-radius: 5px;
+    padding: 10px;
+}
+#create-playlist{
+    margin-bottom: 10px;
+}
+#playlist-form{
+    display: flex;
+    justify-content: space-around;
+
+}
+#playlist-form div{
+    background-color: rgb(255, 254, 203);
+    width:30%;
+    height:18px;
+    padding: 2px;
+    text-align: center;
+    color:black;
+    font-size: smaller;
+
+}
+#main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#song-details{
+    background-color: rgb(255, 254, 203);
+    color: black;
+}
+#song-title{
+    color: black;
+}
+#song-image{
+    width: 300px;
+    height: 300px;
+}
+#next-previous{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+#next-previous div{
+    background-color:rgb(255, 254, 203);
+    margin:5px;
+}
+#add-to-playlist{
+    background-color:rgb(255, 254, 203);
+}
+#song-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+#song-list div{
+    background-color: rgb(245, 244, 179);
+    margin-bottom: 8px;
+}
+#all-playlists{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+#all-playlists div{
+    background-color: rgb(245, 244, 179);
+    margin-bottom: 8px;
+}
+#current-playlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+#current-playlist div{
+    background-color: rgb(245, 244, 179);
+    margin-bottom: 8px;
+}
+
+.mainPortion{
+    background-color: rgb(26, 72, 112);
+}

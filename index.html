@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<Head>
+    <title>AKAASHAVAANI-Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</Head>
+<Body>
+    <Header>
+        <div id="title">
+            <H2>AAKASHAVAANI</H2>
+            <h3>Music Player</h3>
+        </div>
+        <div id="theme-selector">
+            <div id="slider"></div>
+        </div>
+    </Header>
+    <main>    
+        <!-- all songs section -->
+        <aside>
+            <div id="filter" class="mainPortion">
+                <div id="filter-dropdown">
+                    <label for="genre">Filter by genre:</label>
+                    <select name="genre" id="genre">
+                        <option selected value="all">ALL</option>
+                        <option value="rock">ROCK</option>
+                        <option value="pop">POP</option>
+                        <option value="hip-hop">HIP HOP</option>
+                    </select>
+                </div>
+                <div id="all-songs"> 
+                    <h3>All Songs</h3>
+                    <div id="song-list"></div>
+                </div>
+
+            </div>
+        </aside>
+
+        <!-- song player part -->
+        <section>
+            <div id="main-section" class="mainPortion">
+                <div id="song-details">
+                    <img src="" id="song-image">
+                    <h3 id="song-title"></h3>
+                    <p id="song-artist"></p>
+                </div>
+                <div id="seeker">
+                    <audio controls id="song-audio" src="" type="audio/mpeg"></audio>
+                </div>
+                <div id="next-previous"><div id="prev">Prev</div> <div id="next">Next</div></div>
+                <div id="add-to-playlist">Add to PlayList</div>
+            </div>
+        </section>
+
+        <!-- playlist section -->
+        <aside id="playlists">
+            <div class="mainPortion">
+                <form id="playlist-form">
+                    <input type="text" id="create-playlist" placeholder="Enter playlist name">
+                    <div  id="create-playlist-button">Create Playlist</div>
+                </form>
+                <div id="playlists">
+                    <h4 id="current-playlist-heading">Current Playlist</h4>
+                    <div id="current-playlist"></div>
+                    <h4>All Playlists</h4>
+                    <div id="all-playlists"></div>
+                </div>
+            </div>
+        </aside>
+    </main>
+<script src="script.js"></script>
+</Body>
+</html>
